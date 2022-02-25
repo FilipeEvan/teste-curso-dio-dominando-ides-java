@@ -21,8 +21,8 @@ public class Calculadora {
 		
 		System.out.println("soma " + soma);
 		System.out.println("sub " + subtracao);
-		System.out.println("mult" + multiplicacao);
-		System.out.println("div" + divisao);
+		System.out.println("mult " + multiplicacao);
+		System.out.println("div " + divisao);
 		
 	}
 
@@ -34,7 +34,7 @@ public class Calculadora {
 		return a - b;
 	}
 	
-	public static double divisao(int a, int b) {
+	public static double divisao(double a, double b) {
 		return a / b;
 	}
 	
